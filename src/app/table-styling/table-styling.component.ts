@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TableStylingComponent implements OnInit {
 
+  showValues: boolean = false;
   constructor() { }
 
   ngOnInit() {

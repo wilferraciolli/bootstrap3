@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { GridSystemComponent } from './grid-system/grid-system.component';
 import { TextStyleComponent } from './text-style/text-style.component';
 import { TableStylingComponent } from './table-styling/table-styling.component';
+import { VideoStylingComponent } from './video-styling/video-styling.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GridSystemComponent,
     TextStyleComponent,
-    TableStylingComponent
+    TableStylingComponent,
+    VideoStylingComponent
   ],
   imports: [
     BrowserModule,
