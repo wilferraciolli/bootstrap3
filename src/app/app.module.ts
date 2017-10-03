@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { GridSystemComponent } from './grid-system/grid-system.component';
 import { TextStyleComponent } from './text-style/text-style.component';
+import { TableStylingComponent } from './table-styling/table-styling.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GridSystemComponent,
-    TextStyleComponent
+    TextStyleComponent,
+    TableStylingComponent
   ],
   imports: [
     BrowserModule,
