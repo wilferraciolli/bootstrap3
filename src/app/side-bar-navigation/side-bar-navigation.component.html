@@ -1,0 +1,41 @@
+<!-- Side bar navigation. This will require two layouts -->
+
+<div id="wrapper" >
+
+  <!-- side bar -->
+  <div class="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li><a href="#">Account</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">Log Out</a></li>
+    </ul>
+
+    <!-- Page content -->
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Add the toggle side bar button -->
+            <a href="#" class="btn btn-success" id="menu-toggle">Toggle menu</a>
+            <h1>Sidebar layout is cool</h1>
+            <p>Fixed Navigation Bar              The navigation bar can also be fixed at the top or at the bottom of the page.
+              A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.
+              The .navbar-fixed-top class makes the navigation bar fixed at the top:</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Menu toggle script. this method is to make the button to toggle the sidebar -->
+<script>
+  $("#menu-toggle").click(function (e){
+    //stop the click event to take to another page
+    e.preventDefault();
+    //toggle or untoggle the sidebar
+    $("#wrapper").toggleClass("toggled");
+  });
+</script>

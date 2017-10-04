@@ -1,0 +1,45 @@
+/* Side bar */
+#sidebar-wrapper{
+  z-index: 1;
+  position: absolute;
+  width: 0;
+  height: 100%;
+  overflow-y: hidden;
+  background: #2C3E50;
+  border: 2px solid red;
+  opacity: 0.9;
+}
+
+/* main content */
+#page-content-wrapper{
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+  border: 5px solid green;
+}
+
+/* Change the width of the sidebar to display. This is for when the side bar is displayed */
+#wrapper.menuDisplayed #sidebar-wrapper{
+   width: 250px;
+ }
+/* Push the main area to the right */
+#wrapper.menuDisplayed #sidebar-wrapper{
+  padding-left: 250px;
+}
+/* Side bar styling */
+.sidebar-nav{
+  padding: 0;
+  list-style: none;
+}
+.sidebar-nav li{
+  text-indent: 20px;
+  line-height: 40px;
+}
+.sidebar-nav li a{
+  display: block;
+  text-decoration: none;
+  color: #ddd;
+}
+.sidebar-nav li a:hove {
+  background: #00CC99;
+}

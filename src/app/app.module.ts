@@ -10,6 +10,7 @@ import { TableStylingComponent } from './table-styling/table-styling.component';
 import { VideoStylingComponent } from './video-styling/video-styling.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { AlertBoxComponent } from './alert-box/alert-box.component';
+import { SideBarNavigationComponent } from './side-bar-navigation/side-bar-navigation.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AlertBoxComponent } from './alert-box/alert-box.component';
     TableStylingComponent,
     VideoStylingComponent,
     NavigationBarComponent,
-    AlertBoxComponent
+    AlertBoxComponent,
+    SideBarNavigationComponent
   ],
   imports: [
     BrowserModule,
