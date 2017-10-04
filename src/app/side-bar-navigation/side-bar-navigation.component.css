@@ -2,7 +2,7 @@
 #sidebar-wrapper{
   z-index: 1;
   position: absolute;
-  width: 0;
+  width: 20px;
   height: 100%;
   overflow-y: hidden;
   background: #2C3E50;
@@ -23,7 +23,7 @@
    width: 250px;
  }
 /* Push the main area to the right */
-#wrapper.menuDisplayed #sidebar-wrapper{
+#wrapper.menuDisplayed #page-content-wrapper{
   padding-left: 250px;
 }
 /* Side bar styling */
@@ -40,6 +40,6 @@
   text-decoration: none;
   color: #ddd;
 }
-.sidebar-nav li a:hove {
-  background: #00CC99;
+.sidebar-nav li a:hover {
+  background: #16A085;
 }

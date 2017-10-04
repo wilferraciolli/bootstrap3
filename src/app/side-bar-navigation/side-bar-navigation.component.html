@@ -1,14 +1,14 @@
 <!-- Side bar navigation. This will require two layouts -->
-
 <div id="wrapper" >
 
   <!-- side bar -->
-  <div class="sidebar-wrapper">
+  <div id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <li><a href="#">Account</a></li>
       <li><a href="#">Settings</a></li>
       <li><a href="#">Log Out</a></li>
     </ul>
+  </div>
 
     <!-- Page content -->
     <div id="page-content-wrapper">
@@ -28,14 +28,14 @@
 
   </div>
 
-</div>
+  <!-- Menu toggle script. this method is to make the button to toggle the sidebar -->
+  <script>
+    $("#menu-toggle").click(function (e){
+      e.preventDefault();
+      $("#wrapper").toggleClass("menuDisplayed");
+    });
+  </script>
 
-<!-- Menu toggle script. this method is to make the button to toggle the sidebar -->
-<script>
-  $("#menu-toggle").click(function (e){
-    //stop the click event to take to another page
-    e.preventDefault();
-    //toggle or untoggle the sidebar
-    $("#wrapper").toggleClass("toggled");
-  });
-</script>
+
+
+
