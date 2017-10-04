@@ -11,6 +11,7 @@ import { VideoStylingComponent } from './video-styling/video-styling.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { AlertBoxComponent } from './alert-box/alert-box.component';
 import { SideBarNavigationComponent } from './side-bar-navigation/side-bar-navigation.component';
+import { PopUpScreensComponent } from './pop-up-screens/pop-up-screens.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SideBarNavigationComponent } from './side-bar-navigation/side-bar-navig
     VideoStylingComponent,
     NavigationBarComponent,
     AlertBoxComponent,
-    SideBarNavigationComponent
+    SideBarNavigationComponent,
+    PopUpScreensComponent
   ],
   imports: [
     BrowserModule,
