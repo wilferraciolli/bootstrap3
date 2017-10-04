@@ -9,6 +9,7 @@ import { TextStyleComponent } from './text-style/text-style.component';
 import { TableStylingComponent } from './table-styling/table-styling.component';
 import { VideoStylingComponent } from './video-styling/video-styling.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { AlertBoxComponent } from './alert-box/alert-box.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NavigationBarComponent } from './navigation-bar/navigation-bar.componen
     TextStyleComponent,
     TableStylingComponent,
     VideoStylingComponent,
-    NavigationBarComponent
+    NavigationBarComponent,
+    AlertBoxComponent
   ],
   imports: [
     BrowserModule,
