@@ -13,6 +13,7 @@ import { AlertBoxComponent } from './alert-box/alert-box.component';
 import { SideBarNavigationComponent } from './side-bar-navigation/side-bar-navigation.component';
 import { PopUpScreensComponent } from './pop-up-screens/pop-up-screens.component';
 import { PushPullComponent } from './push-pull/push-pull.component';
+import { PopUpWindowComponent } from './pop-up-window/pop-up-window.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PushPullComponent } from './push-pull/push-pull.component';
     AlertBoxComponent,
     SideBarNavigationComponent,
     PopUpScreensComponent,
-    PushPullComponent
+    PushPullComponent,
+    PopUpWindowComponent
   ],
   imports: [
     BrowserModule,
